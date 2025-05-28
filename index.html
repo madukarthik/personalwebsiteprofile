@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Karthik Madu, a Computer Science & Engineering graduate with expertise in AI, web development, and more">
+    <meta name="keywords" content="Karthik Madu, portfolio, computer science, AI, web development">
+    <meta property="og:title" content="Karthik Madu Portfolio">
+    <meta property="og:description" content="Explore the projects, skills, and achievements of Karthik Madu, a Computer Science graduate.">
+    <meta property="og:image" content="assets/images/profile.png">
+    <title>Karthik Madu Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#home" class="logo">Karthik Madu</a>
+        <div class="nav-links">
+            <a href="#home"><i class="fas fa-home"></i> Home</a>
+            <a href="#about"><i class="fas fa-user"></i> About</a>
+            <a href="#skills"><i class="fas fa-cogs"></i> Skills</a>
+            <a href="#education"><i class="fas fa-graduation-cap"></i> Education</a>
+            <a href="#projects"><i class="fas fa-laptop-code"></i> Projects</a>
+            <a href="#certificates"><i class="fas fa-award"></i> Certificates</a>
+            <a href="#why-hire-me"><i class="fas fa-briefcase"></i> Why Hire Me</a>
+            <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+        </div>
+        <button class="theme-toggle" aria-label="Toggle theme" onclick="toggleTheme()">
+            <i class="fas fa-moon"></i>
+        </button>
+        <i class="fas fa-bars hamburger" aria-label="Toggle navigation" onclick="toggleNav()"></i>
+    </nav>
+
+    <main class="main-content">
+        <section class="section home-section" id="home">
+    <div class="text-content">
+        <h1>Hello I'M</h1>
+        <h2>Karthik Madu</h2>
+        <p>Computer Science & Engineering Graduate</p>
+    </div>
+    <div class="image-content">
+        <img src="profile.png" alt="Karthik Madu" class="profile-image">
+    </div>
+</section>
+
+
+        <section class="section about-section" id="about">
+            <h1>About Me</h1>
+            <p>Get to know more about my background and expertise</p>
+            <div class="two-column">
+                <div class="card">
+                    <h3>Professional Journey</h3>
+                    <p>I completed my B.Tech in Computer Science and Engineering at NRI Institute of Technology in 2025 with First Class with Distinction and a CGPA of 7.9. Along with my studies, I gained hands-on experience by creating an AI model to predict student dropout rates using Python and Scikit-learn libraries.</p>
+                    <p>I’ve been working in teams to tackle real-world challenges with innovative technology. I look forward to contributing my skills and enthusiasm to a dynamic company and growing as a professional.</p>
+                </div>
+                <div class="card">
+                    <h3>Academic Highlights</h3>
+                    <p><strong>CGPA:</strong> 7.9</p>
+                    <p><strong>Graduate:</strong> 2025</p>
+                    <p><strong>Specialization:</strong> Computer Science & Engineering</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section skills-section" id="skills">
+            <h1>Skills & Expertise</h1>
+            <div class="two-column">
+                <div class="skill-card">
+                    <div class="icon"><i class="fas fa-code"></i></div>
+                    <h3>Programming Languages</h3>
+                    <div class="tags">
+                        <span>C</span>
+                        <span>Python</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="icon">🌐</div>
+                    <h3>Web Technologies</h3>
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="icon">🗃️</div>
+                    <h3>Database</h3>
+                    <div class="tags">
+                        <span>SQL</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="icon">🛠️</div>
+                    <h3>Soft Skills</h3>
+                    <div class="tags">
+                        <span>Leadership</span>
+                        <span>Problem-Solving</span>
+                        <span>Critical Thinking</span>
+                        <span>Collaboration</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section education-section" id="education">
+            <h1>Education</h1>
+            <div class="two-column">
+                <div class="education-item university">
+                    <div class="logo university">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3>Graduation in Computer Science and Engineering</h3>
+                    <p>NRI Institute of Technology, Guntur, Andhra Pradesh<br>CGPA 7.9/10 (First Class with Distinction), 2019 – 2023</p>
+                </div>
+                <div class="education-item college">
+                    <div class="logo college">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <h3>Intermediate (MPC)</h3>
+                    <p>Sri Chaitanya Junior College, Eluru, Andhra Pradesh<br>2017 – 2019</p>
+                </div>
+                <div class="education-item school">
+                    <div class="logo school">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Secondary School Certificate (SSC)</h3>
+                    <p>Sri Bharathi High School, Eluru, Andhra Pradesh<br>Percentage: 85%, 2016 – 2017</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section projects-section" id="projects">
+            <h1>Projects</h1>
+            <div class="two-column">
+                <div class="project-item">
+                    <div class="icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>AI Models for Predicting Student Dropout Rate in Online Courses</h3>
+                    <p>I developed a project to predict student dropout rates in online courses using Python libraries like Pandas and Scikit-learn for data analysis and machine learning models. The frontend was built with Flask, HTML, and CSS, providing an interactive interface to display predictions and insights. This project enhanced my skills in AI, data processing, and web development.</p>
+                </div>
+                <div class="project-item">
+                    <div class="icon"><i class="fas fa-calculator"></i></div>
+                    <h3>Web-Based Calculator</h3>
+                    <p>I created a calculator using HTML, CSS, and JavaScript. It has a simple design and can perform basic calculations. This project helped me understand how to structure the basic calculator logic and make it user-friendly.</p>
+                </div>
+                <div class="project-item">
+                    <div class="icon"><i class="fa-regular fa-file"></i></div>
+                    <h3>Website Personal Portfolio</h3>
+                    <p>I created a website portfolio using HTML, CSS, and JavaScript. It has a simple design and displays personal details. This project helped me understand how to structure a basic portfolio and make it user-friendly.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section certificates-section" id="certificates">
+            <h1>Certificates</h1>
+            <div class="two-column">
+                <div class="certificate-item">
+                    <div class="icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Cyber Security – Cisco</h3>
+                    <p>Issued on 19th December 2022<br>Gained foundational knowledge in cybersecurity principles, including network security, threats, vulnerabilities, and best practices to protect digital infrastructure. This course emphasized real-world scenarios to build awareness and critical thinking in cybersecurity.</p>
+                </div>
+                <div class="certificate-item">
+                    <div class="icon"><i class="fas fa-brain"></i></div>
+                    <h3>Deep Learning for Developers – Infosys Springboard</h3>
+                    <p>Issued on 25th November 2023<br>Explored core concepts of deep learning such as neural networks, backpropagation, and model training using frameworks like TensorFlow and Keras. The course also covered practical use cases including image recognition and natural language processing.</p>
+                </div>
+                <div class="certificate-item">
+                    <div class="icon"><i class="fas fa-code"></i></div>
+                    <h3>Hands-on Workshop on JavaScript – Conducted at College</h3>
+                    <p>Issued on 13th December 2023<br>Participated in a practical workshop focusing on JavaScript fundamentals, DOM manipulation, event handling, and basic client-side web development. Enhanced problem-solving skills by building interactive web elements during the session.</p>
+                </div>
+                <div class="certificate-item">
+                    <div class="icon"><i class="fas fa-database"></i></div>
+                    <h3>Python for Data Science – Coursera</h3>
+                    <p>Issued on 15th January 2024<br>Completed a course on using Python for data science, covering libraries like NumPy, Pandas, and Matplotlib for data analysis, visualization, and machine learning basics.</p>
+                </div>
+                <div class="certificate-item">
+                    <div class="icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Full-Stack Web Development – Udemy</h3>
+                    <p>Issued on 10th March 2024<br>Learned full-stack web development concepts, including frontend (HTML, CSS, JavaScript) and backend (Node.js, Express, MongoDB), through hands-on projects like building a blog application.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section why-hire-me-section" id="why-hire-me">
+            <h1>Why Hire Me?</h1>
+            <div class="two-column">
+                <div class="reason-item">
+                    <div class="icon"><i class="fas fa-lightbulb"></i></div>
+                    <h3>Fresh Perspective</h3>
+                    <p>Recent graduate bringing current academic knowledge and modern approaches.</p>
+                </div>
+                <div class="reason-item">
+                    <div class="icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Academic Excellence</h3>
+                    <p>Graduated with First Class with Distinction, demonstrating strong academic performance.</p>
+                </div>
+                <div class="reason-item">
+                    <div class="icon"><i class="fas fa-book"></i></div>
+                    <h3>Strong Foundation</h3>
+                    <p>Solid understanding of computer science fundamentals and programming principles.</p>
+                </div>
+                <div class="reason-item">
+                    <div class="icon"><i class="fas fa-code"></i></div>
+                    <h3>Practical Experience</h3>
+                    <p>Hands-on project experience demonstrating ability to apply technical knowledge.</p>
+                </div>
+                <div class="reason-item">
+                    <div class="icon"><i class="fas fa-rocket"></i></div>
+                    <h3>Continuous Learner</h3>
+                    <p>Committed to professional development through certifications and skill enhancement.</p>
+                </div>
+                <div class="reason-item">
+                    <div class="icon"><i class="fas fa-users"></i></div>
+                    <h3>Team Player</h3>
+                    <p>Proven collaboration skills and ability to work effectively in team environments.</p>
+                </div>
+                <div class="reason-item">
+                    <div class="icon"><i class="fas fa-check-circle"></i></div>
+                    <h3>Reliable</h3>
+                    <p>Consistent track record of completing work on time with attention to detail.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+            <h1>Contact Details</h1>
+            <div class="two-column">
+                <div class="contact-item">
+                    <div class="icon"><i class="fas fa-envelope"></i></div>
+                    <h3>Email</h3>
+                    <p><a href="mailto:madu.karthik210@gmail.com?subject=Contact%20from%20Portfolio&body=Hi%20Karthik%2C" target="_blank">madu.karthik210@gmail.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><i class="fas fa-phone"></i></div>
+                    <h3>Phone</h3>
+                    <p><a href="tel:+919493137414">+91 9493137414</a></p>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><i class="fab fa-github"></i></div>
+                    <h3>GitHub</h3>
+                    <p><a href="https://github.com/karthikmadu" target="_blank">KarthikMadu</a></p>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><i class="fab fa-linkedin"></i></div>
+                    <h3>LinkedIn</h3>
+                    <p><a href="https://www.linkedin.com/in/madukarthik" target="_blank">Karthik Madu</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
